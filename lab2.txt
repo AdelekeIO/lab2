@@ -1,0 +1,34 @@
+•   a  description  of  all  files  you  are  turning  in  (especially  if  there  are  extra  PHP  files),
+
+1) Logout.php -> Redirects to login page after destroying session.
+2) index.php  -> This is the login page and the registration page.
+3) Lab2.php   -> Is the control Panel for the bulb
+4) Lab2.sql   -> is the exported database for Lab2, the dump file..
+5) Lab2.txt   -> This is the file for readme
+6) libs folder has library used for css, javascript and jquery
+7) Admin folder -> Has one index file which is where administrator login redirects to.
+8) Depen folder -> Is where the database connection is been done. files there includes
+    session.php
+    reqHandler.php
+    dataprocessing.php
+    processor{ 
+        config.php -> for database connection sonfiguration
+        funcs.php  -> for some basic functions used in the project
+        Model.php  -> for databasee connection and BASIC CRUD functions dealing with the database
+    }
+•   a  description  of  how  much  of  the  project  is  complete.
+    The Project covers the underlisted.
+    1) Login
+    2) Registration
+    3) Three basic files which are { Lab2.sql, Lab2.php, Lab2.txt}
+    4) Hashing functions using sha512
+    5) Administratior Login session
+    6) Sending Ajax request to power bulb
+    7) Display of hash password on Administratior page
+    etc.
+•   a  description  of  any  known  bugs  in  the  program  
+
+    The Major bug in the application is that the bulb endpoint is not responding (Down) 
+    which doesn't allow signal to be sent over to the server.
+
+•   all  team  member  names,  or  else  no  credit  for  the  missing  ones!!!  
